@@ -449,9 +449,35 @@
 
 // console.log(+firstNumber + seconNumber)
 
-let ism = prompt("Ismingizni kiriting");
-let surname = prompt("Familiyangizni kiriting");
-let age = prompt("Yoshingiz nechchida");
-let job = prompt("Kasbingiz nima");
+// let ism = prompt("Ismingizni kiriting");
+// let surname = prompt("Familiyangizni kiriting");
+// let age = prompt("Yoshingiz nechchida");
+// let job = prompt("Kasbingiz nima");
 
-console.log('Ismi: ' + ism + ", Familiyasi: " + surname + ", Yoshi: " + age + ", Kasbi: " + job)
+// console.log('Ismi: ' + ism + ", Familiyasi: " + surname + ", Yoshi: " + age + ", Kasbi: " + job)
+
+
+let weekDay = 'seshanba';
+
+switch (weekDay) {
+    case "dushanba":
+        console.log('seshanba');
+        break
+    case 'seshanba':
+        console.log('chorshanba');
+        break
+    case 'chorshanba':
+        console.log("payshanba");
+        break
+    case 'payshanba':
+        console.log("juma");
+        break
+    case 'juma':
+        console.log("shanba");
+        break
+    case 'shanba':
+        console.log("yakshanba");
+        break
+    default:
+        console.log('Bunaqa hafta kuni mavjud emas')
+}
